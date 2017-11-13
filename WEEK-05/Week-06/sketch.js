@@ -1,3 +1,4 @@
+sketch.js
 
 
 var x = 15;
@@ -16,7 +17,7 @@ function draw(){
 	background(0,200,0);
 	stroke(240);
 	strokeWeight(4);
-	noFill(0);
+	noFill();
 	ellipse(x,y,24,24);
 	
 	if (x > 600 || x < 0) {
@@ -29,4 +30,3 @@ function draw(){
 	x=x+xspeed;
 	y=y+yspeed;
 }
-
