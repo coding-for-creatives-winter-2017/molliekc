@@ -1,0 +1,106 @@
+	body{
+		background:grey;
+		padding: 100px 50px;
+	}
+
+	.title_box {
+		display: inline-block;
+		border: 3px solid white;
+		padding: 0px 100px;
+		margin-top:50px;
+	}
+
+	h1 {
+   color: white;
+   -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: white;
+		font-family:"Europa", sans-serif;
+		text-align:center;
+		font-size: 5em;
+		line-height: 1em;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+	}
+	h3 {
+		color:white;
+		font-family:"Europa", sans-serif;
+		text-align:center;
+		letter-spacing: 0.12em;
+	}
+
+	h4 {
+		color:white;
+		font-family:"Europa", sans-serif;
+		text-align:center;
+		letter-spacing: 0.12em;
+		margin-top:300px;
+	}
+
+	.container3 {
+	width:100%;
+	border: 1px solid white;
+	background:solid white;
+    }
+    .title_box2 {
+		display: inline-block;
+		background:white;
+		border: 3px solid black;
+		padding: 0px 50px;
+	}
+
+    h2 {
+    	padding:1em;
+		color:white;
+		background color:white;
+		font-family: "Europa", sans-serif;
+		text-align: left;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+	}
+
+	content {
+		color:black;
+		background-color:white;
+		font-family: "Europa", sans-serif;
+		float: left;
+		margin-top:50px;
+		font-size: 1.5em;
+		padding: 205px 50px;
+		max-width:675px;
+
+
+	}
+	menu {
+		color:black;
+		background-color:white;
+		font-family: "Europa";
+		margin-top:50px;
+		font-size:1em;
+	}
+
+.container {
+	text-align: center;
+}
+.container2 {
+	text-align: left;
+}
+.gallery {
+	margin-top:50px;
+	float: right;
+	width: 800px;
+
+}
+.menu-items {
+	color:white;
+	font-family:"Europa", sans-serif;
+}
+
+#images_hz {
+width: 960px;
+height: auto;
+overflow: hidden;
+}
+#images_hz img {
+display: inline;
+margin: 0 10px;}
